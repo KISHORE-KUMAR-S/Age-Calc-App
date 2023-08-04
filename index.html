@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Age Calc App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,800&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="input">
+                <div id="day-container">
+                    <h5>DAY</h5>
+                    <input type="text" id="dd">
+                </div>
+                <div id="month-container">
+                    <h5>MONTH</h5>
+                    <input type="text" id="mm">
+                </div>
+                <div id="year-container">
+                    <h5>YEAR</h5>
+                    <input type="text" id="yy">
+                </div>
+            </div>
+            <button onclick="age()"><img src="icon-arrow.svg"></button>
+            <hr>
+            <div class="output">
+                <div id="years">
+                    <p id="year"><span id="y"></span> years</p>
+
+                </div>
+                <div id="months">
+                    <p id="month"><span id="m"></span> months</p>
+                </div>
+                <div id="days">
+                    <p id="day"><span id="d"></span> days</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
