@@ -16,7 +16,7 @@ function age() {
         if (m2 > m1 && m2 != m1)
             m2 += 12;
         var d = Math.abs(d2 - d1);
-        var m = Math.abs(m2 - m1);
+        var m = Math.abs(m2 - m1)+1;
         var y = Math.abs(y2 - y1);
         document.getElementById("d").style.color = "hsl(259, 100%, 65%)";
         document.getElementById("m").style.color = "hsl(259, 100%, 65%)";
